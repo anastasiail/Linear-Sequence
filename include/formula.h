@@ -1,15 +1,11 @@
-#ifndef TESTS_H
-#define TESTS_H
+#ifndef FORMULA_H
+#define FORMULA_H
 
-// Объявления тестовых функций
-void test_fibonacci();
-void test_geometric_progression();
-void test_single_root();
-void test_complex_roots();
-void test_negative_values();
-void test_zero_sequence();
-void test_arithmetic_progression();
-void test_edge_case_zero_b();
-void test_edge_case_zero_a_b();
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+// Объявление функции для нахождения формулы
+void find_and_print_formula(int a, int b, int c, int d);
 
 #endif
